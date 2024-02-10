@@ -1,6 +1,6 @@
 import HeroContent from "components/sub/HeroContent";
 import React from "react";
-import Profile from "./Profile";
+import WelcomeBar from "./WelcomeBar";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         <source src="/blackhole.webm" type="video/webm" />
       </video>
       <HeroContent />
-      <Profile />
+      <WelcomeBar />
     </div>
   );
 };
